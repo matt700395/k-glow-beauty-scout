@@ -1,0 +1,66 @@
+{
+  "__mock": { "mode": "success" },
+  "intent_summary": "검색어 \"촉촉한 세럼\"에 대한 맞춤 추천 결과입니다. 수분 보충, 보습 기능 중심으로 분석했습니다.",
+  "search_meta": {
+    "model": "gte-small",
+    "embedding_dim": 384,
+    "match_threshold": 0.2,
+    "candidates_found": 15,
+    "results_after_filter": 8,
+    "top_similarity": 0.847,
+    "avg_similarity": 0.623,
+    "top_brands": ["라운드랩", "이니스프리", "토리든"],
+    "top_tags": ["수분", "히알루론산", "세럼", "보습"],
+    "category_distribution": { "skincare": 6, "base": 1, "suncare": 1 }
+  },
+  "results": [
+    {
+      "id": "prod_001",
+      "name": "독도 토너",
+      "brand": "라운드랩",
+      "category": "skincare",
+      "price_band": "1-3만",
+      "finish": "수분광",
+      "tone_fit": "any",
+      "tags": ["수분", "저자극", "토너"],
+      "ingredients_top": ["히알루론산", "판테놀"],
+      "ingredients_caution": [],
+      "texture_desc": "묽은 워터 타입, 빠르게 흡수",
+      "explain_short": "건조하고 당기는 피부에 즉각적인 수분 보충. 저자극 포뮬러.",
+      "image_url": "/placeholder.svg",
+      "similar_ids": ["prod_002", "prod_003"]
+    },
+    {
+      "id": "prod_002",
+      "name": "다이브인 세럼",
+      "brand": "토리든",
+      "category": "skincare",
+      "price_band": "1-3만",
+      "finish": "촉촉",
+      "tone_fit": "any",
+      "tags": ["히알루론산", "수분폭탄", "세럼"],
+      "ingredients_top": ["5중 히알루론산", "판테놀"],
+      "ingredients_caution": [],
+      "texture_desc": "젤 타입, 겹겹이 수분 레이어링 가능",
+      "explain_short": "5가지 분자 크기의 히알루론산으로 깊은 수분 공급.",
+      "image_url": "/placeholder.svg",
+      "similar_ids": ["prod_001"]
+    },
+    {
+      "id": "prod_003",
+      "name": "그린티 씨드 세럼",
+      "brand": "이니스프리",
+      "category": "skincare",
+      "price_band": "1-3만",
+      "finish": "촉촉",
+      "tone_fit": "any",
+      "tags": ["녹차", "항산화", "세럼"],
+      "ingredients_top": ["녹차 씨 오일", "히알루론산"],
+      "ingredients_caution": ["향료"],
+      "texture_desc": "가벼운 에센스 제형",
+      "explain_short": "항산화+수분 동시 케어. 단, 향료 포함.",
+      "image_url": "/placeholder.svg",
+      "similar_ids": ["prod_001", "prod_002"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "__mock": { "mode": "success" },
+  "page": { "title": "K-Glow AI Search" },
+  "settings": {
+    "example_chips": ["촉촉한 톤업 크림", "민감피부 진정 세럼", "글로우 쿠션 추천"],
+    "example_sentences": [
+      "요즘 피부가 건조하고 당기는데 수분감 있는 세럼 추천해줘",
+      "쿨톤에 맞는 데일리 립 제품 찾고 있어"
+    ],
+    "trend_tags": ["시카", "비타민C", "글루타치온", "병풀"]
+  },
+  "recent_searches": [
+    { "query": "수분크림 추천", "created_at": "2025-06-20T10:00:00Z" },
+    { "query": "톤업 선크림", "created_at": "2025-06-19T14:30:00Z" }
+  ]
+}
