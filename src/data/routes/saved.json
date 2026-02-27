@@ -1,0 +1,37 @@
+{
+  "__mock": { "mode": "success" },
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "독도 토너",
+      "brand": "라운드랩",
+      "category": "skincare",
+      "price_band": "1-3만",
+      "finish": "수분광",
+      "tone_fit": "any",
+      "tags": ["수분", "저자극"],
+      "ingredients_top": ["히알루론산", "판테놀"],
+      "ingredients_caution": [],
+      "texture_desc": "묽은 워터 타입",
+      "explain_short": "건조한 피부에 즉각 수분 보충",
+      "image_url": "/placeholder.svg",
+      "similar_ids": []
+    },
+    {
+      "id": "prod_002",
+      "name": "다이브인 세럼",
+      "brand": "토리든",
+      "category": "skincare",
+      "price_band": "1-3만",
+      "finish": "촉촉",
+      "tone_fit": "any",
+      "tags": ["히알루론산", "세럼"],
+      "ingredients_top": ["5중 히알루론산"],
+      "ingredients_caution": [],
+      "texture_desc": "젤 타입",
+      "explain_short": "깊은 수분 공급",
+      "image_url": "/placeholder.svg",
+      "similar_ids": []
+    }
+  ]
+}
